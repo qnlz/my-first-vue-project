@@ -16,7 +16,7 @@ export default {
   data:function(){
     return{
       title:'this is a todo list',
-      items:[ ],
+      items:Store.fetch(),
       newItem:''
     }
   },
